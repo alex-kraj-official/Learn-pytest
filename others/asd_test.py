@@ -1,5 +1,5 @@
 import pytest
-import asd
+import others.asd as asd
 
 test_data = [
     (1, 1, 4),  # Test case 1: Square

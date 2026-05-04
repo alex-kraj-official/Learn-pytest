@@ -1,5 +1,5 @@
 import json
-import report
+import others.report as report
 import pytest
 
 @pytest.fixture(scope="session")

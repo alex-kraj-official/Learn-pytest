@@ -1,5 +1,5 @@
 import pytest
-import daily_prac
+import daily.daily_0.daily_prac as daily_prac
 
 @pytest.fixture
 def get_userslol():
