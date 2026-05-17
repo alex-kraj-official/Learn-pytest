@@ -22,4 +22,6 @@ def test_3():
 def test_4():
     test_inv2 = daily_01.invoices.copy()
     test_inv2.append({"id": 15, "amount": 0, "paid": True})
-    assert daily_01.summarize_invoices(test_inv2)["paid_count"] == 3 and daily_01.summarize_invoices(test_inv2)["total_count"] == 5
+    result = daily_01.summarize_invoices(test_inv2)
+    assert result["paid_count"] == 3 
+    assert result["total_count"] == 5
