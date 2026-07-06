@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 nested = {
     "user": {"name": "Alice", "age": 25},
     "location": {"city": "Budapest", "country": "Hungary"}
@@ -12,7 +11,7 @@ def flatten_dict(nested):
     return unnested
 
 print(flatten_dict(nested))
-=======
+
 students = [
     {"name": "Alice", "grade": 85},
     {"name": "Bob", "grade": 42},
@@ -27,4 +26,3 @@ def get_passing_students(students: dict) -> list:
     return [s["name"] for s in students if s["grade"] >= 60]
 
 print(get_passing_students(students))
->>>>>>> ef657186c6f9ddbaa8f47ab913342c70d8130e5e
